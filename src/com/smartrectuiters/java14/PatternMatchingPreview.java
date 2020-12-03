@@ -11,6 +11,9 @@ public class PatternMatchingPreview {
         //before
         if (value instanceof String) {
             var strVal = (String) value;
+            if (!strVal.isEmpty()) {
+
+            }
         }
 
 

@@ -5,7 +5,7 @@ import static java.lang.String.format;
 public class SwitchExpressionsPreview {
     public static void main(String[] args) {
         var planet = Planet.SATURN;
-        var message = format("All %s moons on %s are beautiful.", numberOfMoons(planet), planet);
+        var message = format("All %s moons of %s are beautiful.", numberOfMoons(planet), planet);
         System.out.println(message);
     }
 
