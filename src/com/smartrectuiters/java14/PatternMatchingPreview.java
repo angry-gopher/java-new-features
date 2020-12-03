@@ -8,9 +8,12 @@ public class PatternMatchingPreview {
     }
 
     static void check(Object value) {
+        //before
         if (value instanceof String) {
-           var stringVAlue =  (String) value;
+            var strVal = (String) value;
         }
+
+
         if (value instanceof String str && !str.isEmpty()) {
             System.out.printf("%s is not empty String%n", str);
         }

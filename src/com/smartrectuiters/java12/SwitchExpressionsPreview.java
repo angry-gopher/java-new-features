@@ -9,7 +9,7 @@ public class SwitchExpressionsPreview {
         System.out.println(message);
     }
 
-  public enum Planet {
+    public enum Planet {
         MERCURY,
         VENUS,
         EARTH,
@@ -21,7 +21,7 @@ public class SwitchExpressionsPreview {
         //sorry Pluto🪐 but not this time
     }
 
-    static int numberOfMoons(Planet planet) {
+/*    static int numberOfMoonsAfter(Planet planet) {
         var number = switch (planet) {
             case MERCURY, VENUS -> 0;
             case EARTH -> 1;
@@ -32,6 +32,27 @@ public class SwitchExpressionsPreview {
             case NEPTUNE -> 14;
         };
         return number;
+    }*/
+
+    static int numberOfMoons(Planet planet) {
+        switch (planet) {
+            case MERCURY:
+            case VENUS:
+            default:
+                return 0;
+            case EARTH:
+                return 1;
+            case MARS:
+                return 5;
+            case JUPITER:
+                return 79;
+            case SATURN:
+                return 82;
+            case URANUS:
+                return 27;
+            case NEPTUNE:
+                return 14;
+        }
     }
 }
 
