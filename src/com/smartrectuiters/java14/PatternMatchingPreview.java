@@ -12,7 +12,7 @@ public class PatternMatchingPreview {
         if (value instanceof String) {
             var strVal = (String) value;
             if (!strVal.isEmpty()) {
-
+                //do some stuff here
             }
         }
 

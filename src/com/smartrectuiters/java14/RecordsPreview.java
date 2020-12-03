@@ -10,7 +10,7 @@ public class RecordsPreview {
     record Pair(int first, int second) {
     }
 
-    record RecordWithMethod(int argument) {
+    record RecordWithMethod<T>(int argument) {
         static String a = "";
         void method() {
             System.out.println(argument);
@@ -33,9 +33,9 @@ public class RecordsPreview {
 
     public static void main(String[] args) {
         var pair1 = new Pair(1, 2);
+//        pair1.first = 1;
+        var first = pair1.first(); //getter as well pair1.second
         var pair2 = new Pair(1, 2);
-//                        pair1.first = 1;
-        var first = pair1.first(); //getter
         System.out.println(Objects.equals(pair1, pair2));
         System.out.println(pair1.toString());
         System.out.println(pair1.hashCode());

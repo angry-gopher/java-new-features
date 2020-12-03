@@ -2,6 +2,8 @@ package com.smartrectuiters.java14;
 
 public class NullPointerExceptions {
     //java -XX:+ShowCodeDetailsInExceptionMessages NullPointerExceptions.java
+
+
     public static void main(String[] args) {
         var a = new A(new B());
         a.b.c.d = new D();

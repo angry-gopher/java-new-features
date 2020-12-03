@@ -1,4 +1,4 @@
-public class SingleFileRunning {
+class SingleFileRunning {
     //before:
     // javac SingleFileRunning.java
     // java SingleFileRunning
