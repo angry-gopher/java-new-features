@@ -6,10 +6,10 @@ public class TextBlocksPreview {
 
         var after = """                                           
                 {       
-                name: "Jon",                                    
-                surname: "Snow",              
-                age: 23,          
-                city: "Winterfell"           
+                name: "Jon",                                                  
+                surname: "Snow",                     
+                age: 23,           
+                city: "Winterfell"                     
                 }""";
         System.out.println(before.equals(after));
     }

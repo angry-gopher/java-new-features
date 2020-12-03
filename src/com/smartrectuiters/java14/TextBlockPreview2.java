@@ -17,15 +17,15 @@ public class TextBlockPreview2 {
 
         System.out.println(Objects.equals(before, after));
 
-        String before1 = """
+        var before1 = "red   \n" +
+                "green \n" +
+                "blue  \n";
+        String after1 = """
                 red  \s
                 green\s
                 blue \s
                 """;
-        var before2 = "red   \n" +
-                "green \n" +
-                "blue  \n";
 
-        System.out.println(Objects.equals(before1, before2));
+        System.out.println(Objects.equals(before1, after1));
     }
 }

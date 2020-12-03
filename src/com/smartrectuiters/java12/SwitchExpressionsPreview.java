@@ -5,7 +5,7 @@ import static java.lang.String.format;
 public class SwitchExpressionsPreview {
     public static void main(String[] args) {
         var planet = Planet.SATURN;
-        var message = format("All %s moons of %s are beautiful.", numberOfMoons(planet), planet);
+        var message = format("All %s moons of %s are beautiful.", numberOfMoonsAfter(planet), planet);
         System.out.println(message);
     }
 
@@ -21,7 +21,7 @@ public class SwitchExpressionsPreview {
         //sorry Pluto🪐 but not this time
     }
 
-/*    static int numberOfMoonsAfter(Planet planet) {
+    static int numberOfMoonsAfter(Planet planet) {
         var number = switch (planet) {
             case MERCURY, VENUS -> 0;
             case EARTH -> 1;
@@ -32,7 +32,7 @@ public class SwitchExpressionsPreview {
             case NEPTUNE -> 14;
         };
         return number;
-    }*/
+    }
 
     static int numberOfMoons(Planet planet) {
         switch (planet) {

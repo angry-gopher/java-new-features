@@ -8,6 +8,6 @@ public class NewStringMethods {
 
         System.out.println("  word  ".strip()); // stripLeading, stripTrailing -- Unicode aware trim
 
-        System.out.println("a".repeat(1)); // Python has for that "abc" * 3
+        System.out.println("a".repeat(2)); // Python has for that "abc" * 3
     }
 }
