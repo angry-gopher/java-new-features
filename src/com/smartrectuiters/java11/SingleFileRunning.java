@@ -1,5 +1,3 @@
-package com.smartrectuiters.java11;
-
 public class SingleFileRunning {
     //before:
     // javac SingleFileRunning.java
