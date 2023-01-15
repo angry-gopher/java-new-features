@@ -10,7 +10,7 @@ import static java.net.http.HttpClient.Version.HTTP_2;
 
 public class HttpJavaClient {
 
-    private static final String EXAMPLE_URI = "http://example.com";
+    private static final String EXAMPLE_URI = "https://example.com";
     private static final int TIMEOUT = 5;
 
     public static void main(String[] args) throws IOException, InterruptedException {
