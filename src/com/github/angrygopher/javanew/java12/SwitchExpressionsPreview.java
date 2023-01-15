@@ -1,4 +1,4 @@
-package com.smartrectuiters.java12;
+package com.github.angrygopher.javanew.java12;
 
 import static java.lang.String.format;
 

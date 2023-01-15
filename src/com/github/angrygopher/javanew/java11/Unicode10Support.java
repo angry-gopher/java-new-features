@@ -1,4 +1,4 @@
-package com.smartrectuiters.java11;
+package com.github.angrygopher.javanew.java11;
 
 public class Unicode10Support {
     public static void main(String[] args) {

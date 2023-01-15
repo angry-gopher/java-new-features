@@ -1,4 +1,4 @@
-package com.smartrectuiters.java14;
+package com.github.angrygopher.javanew.java14;
 
 import java.util.Objects;
 

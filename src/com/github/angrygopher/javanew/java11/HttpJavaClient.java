@@ -1,4 +1,4 @@
-package com.smartrectuiters.java11;
+package com.github.angrygopher.javanew.java11;
 
 import java.io.IOException;
 import java.net.http.HttpClient;

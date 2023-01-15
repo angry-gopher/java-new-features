@@ -1,4 +1,4 @@
-package com.smartrectuiters.java11;
+package com.github.angrygopher.javanew.java11;
 
 public class NewStringMethods {
     public static void main(String[] args) {

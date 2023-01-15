@@ -1,4 +1,4 @@
-package com.smartrectuiters.java13;
+package com.github.angrygopher.javanew.java13;
 
 public class TextBlocksPreview {
     public static void main(String[] args) {

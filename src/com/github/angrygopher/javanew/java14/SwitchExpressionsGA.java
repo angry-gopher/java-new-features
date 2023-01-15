@@ -1,4 +1,4 @@
-package com.smartrectuiters.java14;
+package com.github.angrygopher.javanew.java14;
 
 public class SwitchExpressionsGA {
     //java 12 &

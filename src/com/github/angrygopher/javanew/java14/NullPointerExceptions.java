@@ -1,4 +1,4 @@
-package com.smartrectuiters.java14;
+package com.github.angrygopher.javanew.java14;
 
 public class NullPointerExceptions {
     //java -XX:+ShowCodeDetailsInExceptionMessages NullPointerExceptions.java
