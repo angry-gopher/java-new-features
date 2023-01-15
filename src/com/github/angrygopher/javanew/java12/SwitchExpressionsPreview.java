@@ -1,10 +1,11 @@
 package com.github.angrygopher.javanew.java12;
 
+import static com.github.angrygopher.javanew.java12.SwitchExpressionsPreview.Planet.SATURN;
 import static java.lang.String.format;
 
 public class SwitchExpressionsPreview {
     public static void main(String[] args) {
-        var planet = Planet.SATURN;
+        var planet = SATURN;
         var message = format("All %s moons of %s are beautiful.", numberOfMoonsAfter(planet), planet);
         System.out.println(message);
     }
@@ -18,7 +19,7 @@ public class SwitchExpressionsPreview {
         SATURN,
         URANUS,
         NEPTUNE
-        //sorry Pluto🪐 but not this time
+        //sorry Pluto🪐
     }
 
     static int numberOfMoonsAfter(Planet planet) {
