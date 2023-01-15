@@ -1,9 +1,9 @@
 package com.github.angrygopher.javanew.java12;
 
-import static com.github.angrygopher.javanew.java12.SwitchExpressionsPreview.Planet.SATURN;
+import static com.github.angrygopher.javanew.java12.SwitchExpressionsPreview1.Planet.SATURN;
 import static java.lang.String.format;
 
-public class SwitchExpressionsPreview {
+public class SwitchExpressionsPreview1 {
     public static void main(String[] args) {
         var planet = SATURN;
         var message = format("All %s moons of %s are beautiful.", numberOfMoonsAfter(planet), planet);

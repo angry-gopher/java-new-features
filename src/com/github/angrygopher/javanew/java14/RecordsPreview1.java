@@ -2,7 +2,7 @@ package com.github.angrygopher.javanew.java14;
 
 import java.util.Objects;
 
-public class RecordsPreview {
+public class RecordsPreview1 {
     //    Records cannot extend any other class, and cannot declare instance fields other than the private final fields
     //    which correspond to components of the state description. Any other fields which are declared must be static.
     //possible to override equals and hashcode

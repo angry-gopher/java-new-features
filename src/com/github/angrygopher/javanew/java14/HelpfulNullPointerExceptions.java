@@ -1,8 +1,7 @@
 package com.github.angrygopher.javanew.java14;
 
-public class NullPointerExceptions {
-    //java -XX:+ShowCodeDetailsInExceptionMessages NullPointerExceptions.java
-
+public class HelpfulNullPointerExceptions {
+    //java -XX:+ShowCodeDetailsInExceptionMessages HelpfulNullPointerExceptions.java
 
     public static void main(String[] args) {
         var a = new A(new B());

@@ -1,8 +1,8 @@
 package com.github.angrygopher.javanew.java13;
 
-import com.github.angrygopher.javanew.java12.SwitchExpressionsPreview.Planet;
+import com.github.angrygopher.javanew.java12.SwitchExpressionsPreview1.Planet;
 
-import static com.github.angrygopher.javanew.java12.SwitchExpressionsPreview.Planet.JUPITER;
+import static com.github.angrygopher.javanew.java12.SwitchExpressionsPreview1.Planet.JUPITER;
 
 public class SwitchExpressionsPreview2 {
     private static final double MILE_TO_KM_RATIO = 1.609;
