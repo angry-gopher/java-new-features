@@ -1,6 +1,6 @@
-package com.github.angrygopher.javanew.java18;
+package com.github.angrygopher.javanew.java19;
 
-public class PatternMatchingForSwitchPreview2 {
+public class PatternMatchingForSwitchPreview3 {
     public static void main(String[] args) {
 
     }
@@ -13,4 +13,5 @@ public class PatternMatchingForSwitchPreview2 {
             default        -> o.toString();
         };
     }
+
 }
