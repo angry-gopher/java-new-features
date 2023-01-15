@@ -1,6 +1,6 @@
-package com.github.angrygopher.javanew.java15;
+package com.github.angrygopher.javanew.java16;
 
-public class SealedClassesPreview {
+public class SealedClassesPreview2 {
 
     static abstract sealed class Planet permits Earth, Mars {
 

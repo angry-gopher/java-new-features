@@ -1,7 +1,7 @@
 package com.github.angrygopher.javanew.java14;
 
 
-public class PatternMatchingForInstanceOfPreview {
+public class PatternMatchingForInstanceOfPreview1 {
     public static void main(String[] args) {
         check("string");
         check(1);
