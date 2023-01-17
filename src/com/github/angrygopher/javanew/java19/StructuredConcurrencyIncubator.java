@@ -9,6 +9,7 @@ public class StructuredConcurrencyIncubator {
 
 //    Response handle() throws ExecutionException, InterruptedException {
 //        try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
+    // runs tasks in two virtual threads
 //            Future<String> user = scope.fork(this::findUser);
 //            Future<Integer> order = scope.fork(this::fetchOrder);
 //
