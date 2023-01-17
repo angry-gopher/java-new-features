@@ -1,3 +1,5 @@
+package com.github.angrygopher.javanew.java11;
+
 class SingleFileRunning {
     //before:
     // javac SingleFileRunning.java

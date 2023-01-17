@@ -2,18 +2,22 @@ package com.github.angrygopher.javanew.java16;
 
 public class SealedClassesPreview2 {
 
-    static abstract sealed class Planet permits Earth, Mars {
+    //possible to remove permits
+    sealed interface Planet permits Earth, Mars {
 
     }
 
-    static final class Earth extends Planet {
+    // this class can be sealed, non-sealed or final only
+    final class Earth implements Planet {
 
     }
 
-    static final class Mars extends Planet {
+    // non-sealed class so it can be extended
+    non-sealed class Mars implements Planet {
 
     }
 
+    class Phobos extends Mars {
 
-
+    }
 }

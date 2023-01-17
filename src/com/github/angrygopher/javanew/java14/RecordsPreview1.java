@@ -37,7 +37,7 @@ public class RecordsPreview1 {
         var first = pair1.first(); //getter as well pair1.second
         var pair2 = new Pair(1, 2);
         System.out.println(Objects.equals(pair1, pair2));
-        System.out.println(pair1.toString());
+        System.out.println(pair1);
         System.out.println(pair1.hashCode());
 
         var recordWithMethod = new RecordWithMethod(1);
