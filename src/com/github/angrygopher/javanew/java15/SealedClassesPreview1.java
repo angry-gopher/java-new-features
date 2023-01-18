@@ -6,7 +6,11 @@ public class SealedClassesPreview1 {
 
     }
 
-    static final class Earth extends Planet {
+    static non-sealed class Earth extends Planet {
+
+    }
+
+    static final class Moon extends Earth {
 
     }
 
