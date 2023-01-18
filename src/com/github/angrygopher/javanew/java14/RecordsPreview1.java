@@ -29,18 +29,25 @@ public class RecordsPreview1 {
             if (lo > hi)  /* referring here to the implicit constructor parameters */
                 throw new IllegalArgumentException(String.format("(%d,%d)", lo, hi));
         }
+
+       // another constructor
+        Range(int x, int y, int z) {
+            this(x, y);
+        }
     }
 
     public static void main(String[] args) {
         var pair1 = new Pair(1, 2);
 //        pair1.first = 1;
-        var first = pair1.first(); //getter as well pair1.second
+
+        var first = pair1.first(); //getter as well pair1.first
+
         var pair2 = new Pair(1, 2);
         System.out.println(Objects.equals(pair1, pair2));
         System.out.println(pair1);
         System.out.println(pair1.hashCode());
 
-        var recordWithMethod = new RecordWithMethod(1);
+        var recordWithMethod = new RecordWithMethod<String>(1);
         recordWithMethod.method();
     }
 }
