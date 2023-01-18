@@ -22,18 +22,7 @@ public class SwitchExpressionsPreview1 {
         //sorry Pluto🪐
     }
 
-    static int numberOfMoonsAfter(Planet planet) {
-        var number = switch (planet) {
-            case MERCURY, VENUS -> 0;
-            case EARTH -> 1;
-            case MARS -> 5;
-            case JUPITER -> 79;
-            case SATURN -> 82;
-            case URANUS -> 27;
-            case NEPTUNE -> 14;
-        };
-        return number;
-    }
+
 
     static int numberOfMoons(Planet planet) {
         switch (planet) {
@@ -54,6 +43,19 @@ public class SwitchExpressionsPreview1 {
             case NEPTUNE:
                 return 14;
         }
+    }
+
+    static int numberOfMoonsAfter(Planet planet) {
+        var number = switch (planet) {
+            case MERCURY, VENUS -> 0;
+            case EARTH -> 1;
+            case MARS -> 5;
+            case JUPITER -> 79;
+            case SATURN -> 82;
+            case URANUS -> 27;
+            case NEPTUNE -> 14;
+        };
+        return number;
     }
 }
 
